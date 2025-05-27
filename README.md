@@ -27,7 +27,7 @@ docker</pre>
 <pre>touch .env</pre>
 
 7.Build the docker container:
-<pre>docker build -t 2-tier-backend-app .</pre>
+<pre>docker build -t two-tier-backend-app .</pre>
 
 8.Create a custom network so flask app can interact with sql server:
 <pre>docker network create two-tier -d bridge</pre>
