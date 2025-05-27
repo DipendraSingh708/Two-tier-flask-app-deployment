@@ -39,7 +39,7 @@ docker</pre>
 <pre>docker run -d -p 5000:5000 --network two-tier -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_DB=devops two-tier-backend:latest</pre>
 
 11. Change the Security groups and Edit inbound rules:
-<pre>create a new inbound rule and Select type "custom tcp" ,Set port range "5000" ,Set source "anywhere" and save rule. </pre>
+<pre>Create a new inbound rule and Select type "custom tcp" ,Set port range "5000" ,Set source "anywhere" and Save rule. </pre>
 
 12. Now, you can see flask app on your localhost:
 <pre>Local host = http://Public IPv4 address:5000</pre>
